@@ -1,0 +1,21 @@
+.row {
+
+    @mixin clearfix;
+
+    &--gutters {
+        margin-right: -65px;
+    }
+
+    &--gutters > div {
+        padding-right: 65px;
+    }
+
+    @mixin atSmall {
+        &__6 {
+            float: left;
+            width: 50%;
+        }
+    
+    }
+    
+}

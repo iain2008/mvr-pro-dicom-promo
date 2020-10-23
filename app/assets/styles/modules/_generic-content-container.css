@@ -1,0 +1,25 @@
+.generic-content-container {
+  
+    p {
+      font-size: 1.2rem;
+      line-height: 1.2;
+      max-width: 800px;
+      margin: 2rem auto;
+    }
+
+    ul {
+      font-size: 1.2rem;
+      line-height: 1.2;
+      max-width: 800px;
+      margin: 2rem auto;
+    }
+
+    &--small-text {
+      font-size: 0.875rem;
+    }
+
+    &--big-margin-top {
+      margin: 4rem auto 2rem auto;
+    }
+  
+  }
